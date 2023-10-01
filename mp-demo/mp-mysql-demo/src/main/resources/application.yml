@@ -1,9 +1,10 @@
-mybatis:
-  mapper-locations:
-    - classpath:mapper/*.xml
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mysql_test?serverTimezone=Asia/Shanghai
     username: root
     password: root
+
+logging:
+  level:
+    com.example.demo.mapper: debug

@@ -8,15 +8,14 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>mybatis-demo</artifactId>
+    <artifactId>mp-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mybatis-demo</name>
+    <name>mp-demo</name>
     <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
 
     <modules>
-        <module>mybatis-mysql-demo</module>
-        <module>mybatis-postgres-demo</module>
+        <module>mp-mysql-demo</module>
     </modules>
 
 </project>

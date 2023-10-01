@@ -13,6 +13,7 @@
 	<modules>
 		<module>mybatis-demo</module>
 		<module>jpa-demo</module>
+		<module>mp-demo</module>
 	</modules>
 
 	<dependencies>
