@@ -16,6 +16,8 @@
 
     <modules>
         <module>jpa-postgres-demo</module>
+        <module>jpa-h2-demo</module>
+        <module>jpa-mysql-demo</module>
     </modules>
 
 </project>

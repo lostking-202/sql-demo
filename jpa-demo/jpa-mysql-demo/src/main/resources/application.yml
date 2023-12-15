@@ -1,0 +1,9 @@
+spring.datasource.url: jdbc:mysql://135.251.45.18:3306/sbell_tem?useSSL=false&useUnicode=true&characterEncoding=utf8
+spring.datasource.username: root
+spring.datasource.password: root
+spring.datasource.driver-class-name: com.mysql.jdbc.Driver
+#spring.jpa.database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+spring.mvc.pathmatch.matching-strategy: ant_path_matcher
+spring.jpa.hibernate.ddl-auto: update
+spring.jpa.show-sql: true

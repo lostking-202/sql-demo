@@ -1,7 +1,6 @@
 package com.example.demo.controller;
 
 
-import org.junit.jupiter.api.Test;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,8 +17,5 @@ public class HelloController {
         System.out.println(Thread.currentThread().getName());
         return "hello";
     }
-    @Test
-    public void test(){
-        System.out.println(LocalDateTime.now());
-    }
+
 }

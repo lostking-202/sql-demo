@@ -2,17 +2,17 @@ package com.example.demo.service;
 
 import com.example.demo.dto.ProductResult;
 import com.example.demo.mapper.ProductMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.annotation.Resource;
 import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @Service
 public class ProductService {
-    @Resource
+    @Autowired
     private ProductMapper productMapper;
 
     private static final String product_code1="8001";

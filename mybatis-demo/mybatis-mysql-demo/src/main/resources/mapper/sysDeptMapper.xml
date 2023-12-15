@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.SysDeptMapper">
+
+  <select id="getIdByDeptName" parameterType="java.lang.String" >
+    select dept_id from sys_dept where dept_name=#{deptName}
+  </select>
+
+  <select id="getId">
+    select dept_id from sys_dept
+  </select>
+</mapper>
